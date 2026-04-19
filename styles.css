@@ -594,5 +594,70 @@ html {
   .testimonial-card {
     width: 100%;
   }
+} 
+
+/* CTA SECTION */ 
+html {
+  scroll-behavior: smooth;
+} 
+#book {
+  scroll-margin-top: 100px;
+}
+.cta-section {
+  background: #ffffff;
+  padding: 100px 20px;
+}
+
+.cta-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+
+  padding: 60px 30px;
+  border-radius: 30px;
+
+  background: linear-gradient(135deg, #0b1a2d, #1e293b, #16a34a);
+
+  color: white;
+
+  /* PREMIUM SHADOW */
+  box-shadow: 
+    0 25px 50px #00000066,
+    0 0 30px #ffffff14;
+}
+
+/* TEXT */
+.cta-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.cta-container p {
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+/* BUTTON */
+.cta-btn {
+  background: #22c55e;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.cta-btn:hover {
+  background: #16a34a;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px #22c55e66;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .cta-container h2 {
+    font-size: 1.8rem;
+  }
 }
 
