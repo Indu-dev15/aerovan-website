@@ -1,4 +1,5 @@
-/* GLOBAL */  
+/* ================= GLOBAL ================= */
+
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -9,7 +10,7 @@ body {
   background: radial-gradient(circle at top, #0b1a2d, #050d18);
 }
 
-/* NAVBAR */ 
+/* ================= NAVBAR ================= */
 
 .navbar {
   position: fixed;
@@ -67,7 +68,7 @@ body {
   color: #22c55e;
 }
 
-/* BUTTON */  
+/* ================= BUTTONS ================= */
 
 .btn-primary {
   background: linear-gradient(135deg, #22c55e, #16a34a);
@@ -95,7 +96,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* HERO */ 
+/* ================= HERO ================= */ 
 
 .hero {
   height: 100vh;
@@ -175,7 +176,7 @@ body {
   }
 }
 
-/* STATS SECTION */ 
+/* ================= STATS ================= */
 
 .stats-section {
   padding: 80px 20px;
@@ -222,7 +223,7 @@ body {
   }
 } 
 
-/* WHY SECTION */  
+/* ================= WHY ================= */
 
 html {
   scroll-behavior: smooth;
@@ -316,7 +317,7 @@ html {
   }
 } 
 
-/* ABOUT SECTION */  
+/* ================= ABOUT ================= */
 
 html {
   scroll-behavior: smooth;
@@ -387,7 +388,7 @@ html {
   }
 } 
 
-/* SERVICES SECTION */  
+/* ================= SERVICES ================= */
 
 #services {
   scroll-margin-top: 100px;
@@ -502,8 +503,7 @@ html {
   }
 } 
 
-/* TESTIMONIAL SECTION */ 
-
+/* ================= TESTIMONIAL ================= */
 
 .testimonial-section {
   background: #f5f7fb;
@@ -522,7 +522,6 @@ html {
 .testimonial-card:hover {
   transform: translateY(-10px);
 }
-
 
 .testimonial-container {
   max-width: 1100px;
@@ -590,6 +589,21 @@ html {
   align-items: center;
   justify-content: center;
   font-weight: bold;
+} 
+
+.avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #22c55e;
+  transition: 0.3s ease;
+}
+
+/* hover effect */
+.avatar-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(34,197,94,0.6);
 }
 
 .user h4 {
@@ -613,7 +627,7 @@ html {
   }
 } 
 
-/* CTA SECTION */ 
+/* ================= CTA ================= */
 
 html {
   scroll-behavior: smooth;
@@ -679,7 +693,7 @@ html {
   }
 }
 
-/* FOOTER */ 
+/* ================= FOOTER ================= */
 
 .footer {
   background: #08101c;
