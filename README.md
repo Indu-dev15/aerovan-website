@@ -29,11 +29,11 @@ A modern travel startup website built using HTML and CSS.
 ## 📸 Screenshots
 
 ### 🏠 Hero Section
-![Hero](images/hero.png)
+![Hero](images/hero.jpeg)
 
 ### 🚀 Services Section
-![Services](images/services.png)
+![Services](images/services.jpeg)
 
 ### 🌐 features Page
-![Full](images/features.png) 
+![Full](images/features.jpeg) 
  
