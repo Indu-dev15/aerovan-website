@@ -26,14 +26,5 @@ A modern travel startup website built using HTML and CSS.
 ## 👩‍💻 Author
 - Indu Mittapalli 
 
-## 📸 Screenshots
 
-### 🏠 Hero Section
-![Hero](images/hero.jpeg)
-
-### 🚀 Services Section
-![Services](images/services.jpeg)
-
-### 🌐 features Page
-![Full](images/features.jpeg) 
  
