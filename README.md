@@ -25,6 +25,3 @@ A modern travel startup website built using HTML and CSS.
 
 ## 👩‍💻 Author
 - Indu Mittapalli 
-
-
- 
